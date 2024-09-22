@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <img src="./assets/img/Utopia.jpg" alt="Utopia" id="background">
+    <audio id="audio"></audio>
+
+
+    <div class="audio-player">
+        <div class="container">
+            <div class="audio-image">
+                <img src="assets/img/Utopia_small.png" alt="Utopia" id="cover_image">
+            </div>
+            <div class="song-name">
+                <div id="song-title">My eyes</div>
+                <div id="song-artist">Travis Scott</div>
+            </div>
+
+            <input type="range" id="timeline" value="0" max="100">
+            <div class="song-time">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+
+            <div class="controls-box">
+                <button id="play-prev-button"><img src="assets/icons/arrow.png" alt="arrow" id="previous-icon"></button>
+                <button id="play-pause"><img src="assets/icons/play.png" alt="play" id="play-icon"
+                        class="play-pause-img"></button>
+                <button id="play-next-button"><img src="assets/icons/arrow.png" alt="arrow" id="next-icon"></button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <a class="github" href="https://github.com/Grestash">
+                <img src="assets/icons/github.png" alt="Github icon" width="30" height="30">
+                <p>Visit my GitHub</p>
+            </a>
+
+            <p class="footer-year"> © 2024</p>
+
+            <a href="https://rs.school/courses/javascript-ru">
+                <img src="assets/icons/rs-school-logo.svg" alt="rsschool-logo" width="73" height="27">
+            </a>
+
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
